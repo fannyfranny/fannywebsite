@@ -1,0 +1,58 @@
+body {
+    font-family: Arial;
+    background: #dbeafe;
+    margin: 0;
+}
+
+.kotak {
+    width: 350px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.box {
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.tombol {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-daftar {
+    flex: 1;
+    padding: 8px;
+    background: #60a5fa;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-reset {
+    flex: 1;
+    padding: 8px;
+    background: #e5e7eb;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#show {
+    margin-top: 10px;
+    background: #eee;
+    padding: 10px;
+    border-radius: 5px;
+}

@@ -1,0 +1,58 @@
+<html>
+<head>
+    <title>Sumative</title>
+    <link rel="stylesheet" href="ujian.css">
+</head>
+<body>
+<div class="kotak">
+<form>
+    <h2>Isi data dengan lengkap dan benar</h2>
+    <label>Nama Lengkap:</label><br>
+    <input type="text" id="nama"><br><br>
+    <label>Kelas:</label><br>
+    <input type="text" id="kelas"><br><br>
+    <div class="box">
+        <p>Pilih Ekstrakulikuler</p>
+        <input type="checkbox" name="ekskul" value="Basket"> Basket<br>
+        <input type="checkbox" name="ekskul" value="Futsal"> Futsal<br>
+        <input type="checkbox" name="ekskul" value="Paduan suara"> Paduan suara
+    </div>
+    <br>
+    <div class="box">
+    <p><b>Pilih Jadwal Belajar (wajib pilih salah satu)</b></p>
+    <label>
+        <input type="radio" name="jadwal" value="Pagi (07.00 - 12.00)">
+        Pagi (07.00 - 12.00)
+    </label><br>
+    <label>
+        <input type="radio" name="jadwal" value="Siang (12.30 - 17.00)">
+        Siang (12.30 - 17.00)
+    </label><br>
+    <label>
+        <input type="radio" name="jadwal" value="Sore (17.30 - 20.30)">
+        Sore (17.30 - 20.30)
+    </label><br>
+    <label>
+        <input type="radio" name="jadwal" value="Campuran (fleksibel)">
+        Campuran (fleksibel)
+    </label>
+</div>
+    <br>
+
+    <label>
+        <input type="checkbox" id="persetujuan"> Saya setuju
+    </label>
+
+    <br><br>
+
+    <div class="tombol">
+        <button type="button" id="tampil" class="btn-daftar">Daftar Sekarang</button>
+        <button type="reset" class="btn-reset">Reset</button>
+    </div>
+
+</form>
+<pre id="show"></pre>
+</div>
+<script src="ujian.js"></script>
+</body>
+</html>
